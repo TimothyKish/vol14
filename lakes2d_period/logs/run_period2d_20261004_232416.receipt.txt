@@ -1,0 +1,8 @@
+KishLattice 2D PERIOD Engine Receipt
+================================================
+fingerprint: 
+completed_utc: 2026-10-04T23:24:17Z
+runtime_s: 0.1
+filters: {'common_support': True, 'scale_flag': True, 'resolution_gate': True}
+scramble_null: ALWAYS ON
+pair_bar: 6.9

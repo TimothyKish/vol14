@@ -1,0 +1,8 @@
+KishLattice 2D PHASE Engine Receipt
+================================================
+fingerprint: 0a84f55cdc3505c3cdc54d61f2ff20e906eef12f934a37015ab853a9288527a7fe0639837e5b29386695d76cbcf96439f5ef585b8935265a562fe6d5cde803d5cc2a582a39ad91aba6c6b2269338c1a9
+completed_utc: 2026-10-05T00:47:59Z
+runtime_s: 4.4
+filters: {'common_support': True, 'resolution_gate': True, 'scale_flag': True}
+scramble_null: ALWAYS ON
+pair_bar: 6.9

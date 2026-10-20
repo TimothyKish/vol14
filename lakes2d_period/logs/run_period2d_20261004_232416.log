@@ -1,0 +1,12 @@
+KishLattice 2D Period Engine Run Log
+========================================================================
+ started_utc : 2026-10-04T23:24:17Z
+ fingerprint : 
+  resources: 20 core(s), 19 worker(s), GPU: none (CPU only)   [rabbit]   sample cap: 20,000
+ filters     : {'common_support': True, 'scale_flag': True, 'resolution_gate': True}   (SCRAMBLE NULL: always on)
+ pair space  : 23x23 = 529 pairs   bar=6.9
+========================================================================
+
+[STAGE] logify
+
+Runtime: 0.1s

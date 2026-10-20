@@ -1,0 +1,8 @@
+KishLattice 2D PERIOD Engine Receipt
+================================================
+fingerprint: fefdc4f8777ad4e176aa3f67be0ae3ca669a4c0e25b4bf1dc83f1461dd31161f0b8e55919f6b6dd9877a18114bc017194db30a876ad93c5ed067306a2dc4bc42cc2a582a39ad91aba6c6b2269338c1a9
+completed_utc: 2026-10-14T00:07:13Z
+runtime_s: 35.8
+filters: {'common_support': True, 'scale_flag': False, 'resolution_gate': False}
+scramble_null: ALWAYS ON
+pair_bar: 6.9

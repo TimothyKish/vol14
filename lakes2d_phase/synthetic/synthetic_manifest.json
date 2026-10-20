@@ -1,0 +1,15 @@
+{
+  "generated_by": "make_synthetic_lakes.py",
+  "seed": 42,
+  "n": 20000,
+  "planted": {
+    "jointlock": [
+      11,
+      13
+    ],
+    "oneaxis": [
+      11
+    ]
+  },
+  "note": "2D PHASE controls. single-axis is the KEY: chaos_z high (fooled), scramble_z ~0 (caught)."
+}

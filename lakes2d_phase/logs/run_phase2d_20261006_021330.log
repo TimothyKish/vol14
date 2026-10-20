@@ -1,0 +1,142 @@
+KishLattice 2D Period Engine Run Log
+========================================================================
+ started_utc : 2026-10-06T02:13:30Z
+ fingerprint : 0a84f55cdc3505c3cdc54d61f2ff20e906eef12f934a37015ab853a9288527a7fe0639837e5b29386695d76cbcf96439e0b7854f1cf6c677a6b8c11ec87e8e87cc2a582a39ad91aba6c6b2269338c1a9
+  resources: 20 core(s), 19 worker(s), GPU: none (CPU only)   [rabbit]   sample cap: 2,000,000
+ filters     : {'common_support': True, 'resolution_gate': True, 'scale_flag': True}   (SCRAMBLE NULL: always on)
+ FORM A      : OPEN GATE -- locks flagged, not citable
+ pair space  : 23x23 = 529 pairs   bar=6.9
+========================================================================
+
+[STAGE] support -- L_synth_formB
+
+  [L_synth_formB] n=20,000
+    coord 1: FILLED         eff 5.10 (2.2 dec)
+    coord 2: FILLED         eff 5.17 (2.2 dec)
+    joint  : RIDGE -- |corr|=1.00 -- diagonal correlation (Form B hazard)
+    density grid (x1 ->, x2 ^):
+               @
+              +.
+             -  
+            .   
+                
+                
+                
+                
+                
+                
+                
+                
+    heatmap: L_synth_formB_heatmap.png
+
+[STAGE] scan -- L_synth_formB (529 pairs, CHAOS+SCRAMBLE nulls)
+    best-of-grid pair: (10/pi,12/pi)  real=0.0123  scramble=0.0123  ratio=1.00  -> noise-floor  [FORM_A_UNCLEARED -- not citable]
+
+[STAGE] support -- L_synth_jointlock
+
+  [L_synth_jointlock] n=20,000
+    coord 1: FILLED         eff 5.22 (2.3 dec)
+    coord 2: FILLED         eff 5.14 (2.2 dec)
+    joint  : UNIFORM -- |corr|=0.00, spread -- no obvious marginal structure
+    density grid (x1 ->, x2 ^):
+            .:=@
+             .:+
+              .:
+               .
+                
+                
+                
+                
+                
+                
+                
+                
+    heatmap: L_synth_jointlock_heatmap.png
+
+[STAGE] scan -- L_synth_jointlock (529 pairs, CHAOS+SCRAMBLE nulls)
+    best-of-grid pair: (11/pi,13/pi)  real=0.3079  scramble=0.1376  ratio=2.24  -> SURVIVES  [FORM_A_UNCLEARED -- not citable]
+
+[STAGE] support -- L_synth_noise
+
+  [L_synth_noise] n=20,000
+    coord 1: FILLED         eff 9.91 (4.3 dec)
+    coord 2: FILLED         eff 9.90 (4.3 dec)
+    joint  : UNIFORM -- |corr|=0.00, spread -- no obvious marginal structure
+    density grid (x1 ->, x2 ^):
+    **#%*##@*#**
+    *#*##*%####*
+    %##**#######
+    **#%###*#*##
+    ##*####*##+#
+    #%#***#*#%**
+    *##*#####*#*
+    ###***#%##*#
+    *#%#*+*%**#%
+    **##***###*%
+    *#***#######
+    %%#*#*#####*
+    heatmap: L_synth_noise_heatmap.png
+
+[STAGE] scan -- L_synth_noise (529 pairs, CHAOS+SCRAMBLE nulls)
+    best-of-grid pair: (22/pi,6/pi)  real=0.0117  scramble=0.0120  ratio=0.97  -> noise-floor  [FORM_A_UNCLEARED -- not citable]
+
+[STAGE] support -- L_synth_oneaxis
+
+  [L_synth_oneaxis] n=20,000
+    coord 1: FILLED         eff 5.27 (2.3 dec)
+    coord 2: FILLED         eff 5.12 (2.2 dec)
+    joint  : UNIFORM -- |corr|=0.01, spread -- no obvious marginal structure
+    density grid (x1 ->, x2 ^):
+            .:+@
+             .:=
+              .:
+               .
+                
+                
+                
+                
+                
+                
+                
+                
+    heatmap: L_synth_oneaxis_heatmap.png
+
+[STAGE] scan -- L_synth_oneaxis (529 pairs, CHAOS+SCRAMBLE nulls)
+    best-of-grid pair: (11/pi,10/pi)  real=0.0389  scramble=0.0398  ratio=0.98  -> noise-floor  [FORM_A_UNCLEARED -- not citable]
+
+[STAGE] support -- L_velocity_luminosity
+
+  [L_velocity_luminosity] n=83,155
+    coord 1: TAIL-INFLATED  eff 4.33 (1.9 dec)
+    coord 2: TAIL-INFLATED  eff 12.10 (5.3 dec)
+    joint  : UNIFORM -- |corr|=0.15, spread -- no obvious marginal structure
+    density grid (x1 ->, x2 ^):
+                
+                
+                
+          .:.   
+         .=%*:  
+         :+@*.  
+         .=*=   
+         .=*-   
+         .:-.   
+                
+                
+                
+    heatmap: L_velocity_luminosity_heatmap.png
+
+[STAGE] scan -- L_velocity_luminosity (529 pairs, CHAOS+SCRAMBLE nulls)
+    best-of-grid pair: (8/pi,24/pi)  real=0.0111  scramble=0.0112  ratio=1.00  -> noise-floor  [FORM_A_UNCLEARED -- not citable]
+
+========================================================================
+  2D REGISTER-PAIR CENSUS
+========================================================================
+    L_synth_jointlock: (11/pi,13/pi) real/scramble ratio 2.24 -- SURVIVES
+========================================================================
+
+[STAGE] figures
+  [figures] 1 plugin(s) -> C:\Users\timot\Downloads\Science\src\Unification\vol14\reports2d_phase\output\run_20261006_021342
+    [report_01_phase_heatmap_panel] 1 file(s)
+  [figures] index -> C:\Users\timot\Downloads\Science\src\Unification\vol14\reports2d_phase\output\run_20261006_021342\figures_index.json
+
+Runtime: 13.6s
