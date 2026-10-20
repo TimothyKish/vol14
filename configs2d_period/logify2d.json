@@ -1,0 +1,28 @@
+{
+  "version": "2d_period_0.1",
+  "note": "2D period field map. Each pair-domain maps two raw positive fields on the SAME object. No modulus, no x0 (asserted at load). ln taken at test time.",
+  "combine_types": {
+    "identity": "x = field (>0)"
+  },
+  "domains": {
+    "velocity_luminosity": {
+      "field1": "vT_kms",
+      "field2": "luminosity_lsun",
+      "combine": "identity",
+      "target_pair": [
+        6,
+        8
+      ],
+      "description": "The one feasible 2D pair from the 1D survey: Gaia transverse velocity (3.3 dec) x luminosity (4.0 dec), same star. Both coordinates resolve low-mid registers. SCRAMBLE NULL decides whether any joint lock is real or marginal (Form B). SERVED BY: the synthetic control lakes now (test fixtures, meta.synthetic=true), and the real Gaia velocity-luminosity pair lake when promoted (meta.synthetic absent)."
+    }
+  },
+  "synthetic_controls": {
+    "note": "The synthetic control lakes (L_synth_noise, L_synth_jointlock, L_synth_formB, L_synth_oneaxis) all carry domain 'velocity_luminosity' and route through the entry below. They are distinguished from real data by meta.synthetic=true and meta.control_role. They are standing regression fixtures -- see lakes2d_period/synthetic/synthetic_manifest.json for their pre-registered expected verdicts.",
+    "expected_verdicts": {
+      "L_synth_noise": "noise-floor (ratio ~1)",
+      "L_synth_jointlock": "SURVIVES (ratio >> 1, planted at 11/pi x 13/pi)",
+      "L_synth_formB": "noise-floor (scramble kills the correlation ridge)",
+      "L_synth_oneaxis": "noise-floor (single-axis lock is not joint)"
+    }
+  }
+}

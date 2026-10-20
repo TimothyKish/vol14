@@ -1,0 +1,28 @@
+{
+  "version": "2d_phase_0.1",
+  "note": "2D phase field map. Pairs on same object. Phase engine scores near-node cells; FORM A is an OPEN GATE (not citable until re-derived on a surface).",
+  "combine_types": {
+    "identity": "x = field (>0)"
+  },
+  "domains": {
+    "velocity_luminosity": {
+      "field1": "vT_kms",
+      "field2": "luminosity_lsun",
+      "combine": "identity",
+      "target_pair": [
+        6,
+        8
+      ],
+      "description": "Gaia velocity x luminosity, same star. 2D PHASE: near-node cell joint lock. CHAOS + SCRAMBLE nulls; single-axis structure is caught by scramble (chaos alone is fooled by it)."
+    }
+  },
+  "synthetic_controls": {
+    "note": "The synthetic control lakes (L_synth_noise, L_synth_jointlock, L_synth_formB, L_synth_oneaxis) all carry domain 'velocity_luminosity' and route through the entry above. They are standing regression fixtures -- see lakes2d_phase/synthetic/synthetic_manifest.json for expected verdicts.",
+    "expected_verdicts": {
+      "L_synth_noise": "noise-floor (chaos ~0, scramble ~0)",
+      "L_synth_jointlock": "SURVIVES (planted at 11/pi x 13/pi)",
+      "L_synth_formB": "noise-floor (scramble kills the correlation ridge)",
+      "L_synth_oneaxis": "noise-floor (chaos fooled, scramble catches it)"
+    }
+  }
+}
