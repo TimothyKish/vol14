@@ -1,0 +1,21 @@
+{
+  "generated_by": "make_synthetic_lakes.py",
+  "seed": 42,
+  "n_per_lake": 20000,
+  "planted_registers": {
+    "jointlock": [
+      11,
+      13
+    ],
+    "oneaxis": [
+      11
+    ]
+  },
+  "controls": {
+    "synth_noise": "NEGATIVE CONTROL: uniform random pairs. Expect noise-floor (ratio ~1).",
+    "synth_jointlock": "POSITIVE CONTROL: 25% planted joint lock at (11,13). Expect SURVIVES (ratio >> 1).",
+    "synth_formB": "NEGATIVE CONTROL: linear correlation (Hertzsprung-Russell analogue). Expect killed by scramble (ratio ~1).",
+    "synth_oneaxis": "NEGATIVE CONTROL: lock on axis 1 only. Expect NOT joint (ratio ~1)."
+  },
+  "note": "Regenerate byte-identically with the same seed. These are standing negative/positive controls, the 2D analogue of the phase engine's lotto/finance/noise nulls. A run that does not reproduce these expectations indicates an engine regression."
+}
