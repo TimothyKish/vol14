@@ -1,0 +1,92 @@
+\contentsline {chapter}{Preface: Why We Burned It Down}{5}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}The Verdict on S2: An Artifact, Disproven}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}What the Lake Was Accused Of}{7}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}The Mechanism of the Accusation}{7}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}The Rebuild}{8}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}A Gate That Could Not Fail, Corrected}{8}{subsection.1.2.1}%
+\contentsline {section}{\numberline {1.3}The Verdict}{9}{section.1.3}%
+\contentsline {chapter}{\numberline {2}The Verdict on L1\_GWTC: The Right Observable, Too Few Events}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}What the Lake Was Accused Of}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}The Rebuild}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}The Kerr Gate Earned Its Keep}{11}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}The Verdict}{11}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Both Verdicts, Together}{12}{section.2.4}%
+\contentsline {chapter}{\numberline {3}The Two-Dimensional Turn: Why a Surface, Not a Line}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}What One Dimension Could and Could Not Ask}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}First: Is 2D Testable At All?}{13}{section.3.2}%
+\contentsline {section}{\numberline {3.3}The Geometry of the Difference}{15}{section.3.3}%
+\contentsline {section}{\numberline {3.4}The Lock Statistic in Two Dimensions}{15}{section.3.4}%
+\contentsline {section}{\numberline {3.5}What Compounds, and Must Be Handled Per-Coordinate}{15}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Why the Scramble Null Finally Works}{16}{section.3.6}%
+\contentsline {section}{\numberline {3.7}The Engine Pair, Mirrored From 1D}{17}{section.3.7}%
+\contentsline {section}{\numberline {3.8}What Comes Next}{18}{section.3.8}%
+\contentsline {chapter}{\numberline {4}First Light: Building the 2D Period Engine and Proving It Honest}{20}{chapter.4}%
+\contentsline {section}{\numberline {4.1}The Design Decision That Shaped Everything}{20}{section.4.1}%
+\contentsline {section}{\numberline {4.2}The Statistic, Lifted to a Surface}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.3}The Gates, Designed In}{21}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}The scramble null --- why two dimensions redeems it}{21}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}The look-elsewhere correction, found by the synthetic lakes}{21}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}The Synthetic Lakes: Controls With Known Answers}{22}{section.4.4}%
+\contentsline {section}{\numberline {4.5}First Light}{22}{section.4.5}%
+\contentsline {section}{\numberline {4.6}What First Light Establishes}{23}{section.4.6}%
+\contentsline {chapter}{\numberline {5}First Light: The 2D Phase Engine and Why It Needs the Scramble}{25}{chapter.5}%
+\contentsline {section}{\numberline {5.1}A Second Instrument, a Different Question}{25}{section.5.1}%
+\contentsline {section}{\numberline {5.2}The Two Nulls, and Why Both Are Needed}{25}{section.5.2}%
+\contentsline {section}{\numberline {5.3}First Light}{26}{section.5.3}%
+\contentsline {section}{\numberline {5.4}The Form A Gate Remains Open}{29}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Two Engines, Both Honest}{29}{section.5.5}%
+\contentsline {chapter}{\numberline {6}First Real Data: Velocity $\times $ Luminosity, and the Null We Called}{30}{chapter.6}%
+\contentsline {section}{\numberline {6.1}The One Pair the Feasibility Table Admitted}{30}{section.6.1}%
+\contentsline {section}{\numberline {6.2}The Build}{30}{section.6.2}%
+\contentsline {section}{\numberline {6.3}What the Support Audit Showed}{31}{section.6.3}%
+\contentsline {section}{\numberline {6.4}The Verdict: Both Engines, Noise Floor}{32}{section.6.4}%
+\contentsline {section}{\numberline {6.5}The Prediction, Confirmed}{33}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Why This Null Is Trustworthy: The Controls Passed Alongside}{33}{section.6.6}%
+\contentsline {section}{\numberline {6.7}The Caveat We Will Not Bury}{34}{section.6.7}%
+\contentsline {section}{\numberline {6.8}What Would Change the Answer}{34}{section.6.8}%
+\contentsline {chapter}{\numberline {7}The Door Closes: The Nuclear Dual-Wide Probe}{36}{chapter.7}%
+\contentsline {section}{\numberline {7.1}The Last Candidate}{36}{section.7.1}%
+\contentsline {section}{\numberline {7.2}The Probe: a Pull, Not a Run}{36}{section.7.2}%
+\contentsline {section}{\numberline {7.3}The Result}{37}{section.7.3}%
+\contentsline {section}{\numberline {7.4}The Same Lesson, Twice}{38}{section.7.4}%
+\contentsline {section}{\numberline {7.5}The Two-Dimensional Survey Is Closed}{38}{section.7.5}%
+\contentsline {section}{\numberline {7.6}What This Closes, and What It Opens}{39}{section.7.6}%
+\contentsline {chapter}{Preface: Why a Compass}{40}{chapter*.3}%
+\contentsline {chapter}{\numberline {8}The End of the Ladder, and the Turn to Direction}{42}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Where the Scalar Ladder Stops}{42}{section.8.1}%
+\contentsline {section}{\numberline {8.2}What ``Vector'' Adds That ``Scalar'' Cannot Hold}{43}{section.8.2}%
+\contentsline {chapter}{\numberline {9}The 24-Cell as an Orientation Lattice}{44}{chapter.9}%
+\contentsline {section}{\numberline {9.1}What the 24-Cell Is}{44}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Two Spaces, One Polytope}{44}{section.9.2}%
+\contentsline {chapter}{\numberline {10}The Statistic: Directional Resonance}{46}{chapter.10}%
+\contentsline {section}{\numberline {10.1}The Magnitude Channel (Reused, Not Reinvented)}{46}{section.10.1}%
+\contentsline {section}{\numberline {10.2}The Direction Channel: Concentration on a Sphere}{46}{section.10.2}%
+\contentsline {section}{\numberline {10.3}The Lattice-Alignment Score}{47}{section.10.3}%
+\contentsline {section}{\numberline {10.4}The Vector Lock: Coupling the Two Channels}{48}{section.10.4}%
+\contentsline {chapter}{\numberline {11}The Nulls: Isotropy, Rotation, and the Selection Hazard}{49}{chapter.11}%
+\contentsline {section}{\numberline {11.1}The Isotropic Null}{49}{section.11.1}%
+\contentsline {section}{\numberline {11.2}The Scramble Null --- the Spine, in Direction}{49}{section.11.2}%
+\contentsline {section}{\numberline {11.3}The Rotation Null --- Is the Frame Special?}{50}{section.11.3}%
+\contentsline {chapter}{\numberline {12}How the Vector Engine Differs From All Four Before It}{51}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Targets: What We Will Point It At}{53}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Pre-Registrations for the Vector Engine}{55}{chapter.14}%
+\contentsline {chapter}{\numberline {15}What We Hope To See --- and What We Will Have Either Way}{57}{chapter.15}%
+\contentsline {chapter}{References}{59}{chapter*.4}%
+\contentsline {section}{Scientific References}{62}{chapter*.5}%
+\contentsline {chapter}{\numberline {A}The Filter Ablation: What Each Guard Contributes to the Verdict}{65}{chapter.A}%
+\contentsline {section}{\numberline {A.1}The Point of the Ablation}{65}{section.A.1}%
+\contentsline {section}{\numberline {A.2}The Design}{66}{section.A.2}%
+\contentsline {section}{\numberline {A.3}The Results}{66}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Finding 1 --- The Verdict Is Invariant; the Scramble Carries It}{68}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Finding 2 --- The Resolution Gate Governs Coverage, Not Verdict}{69}{section.A.5}%
+\contentsline {section}{\numberline {A.6}Finding 3 --- The Honest Boundary: C and D Had Nothing to Bite On}{69}{section.A.6}%
+\contentsline {section}{\numberline {A.7}What the Ablation Closes}{70}{section.A.7}%
+\contentsline {chapter}{\numberline {B}Formal Verification with Lean: Certifying the Instrument}{72}{chapter.B}%
+\contentsline {section}{\numberline {B.1}Why Formal Verification, and Why Now}{72}{section.B.1}%
+\contentsline {section}{\numberline {B.2}The Firewall: Lean Certifies the Instrument, Not the Physics}{72}{section.B.2}%
+\contentsline {section}{\numberline {B.3}How Lean Works, Briefly}{73}{section.B.3}%
+\contentsline {section}{\numberline {B.4}The Pre-Registered Target Theorems}{74}{section.B.4}%
+\contentsline {section}{\numberline {B.5}The Shape of One Theorem}{75}{section.B.5}%
+\contentsline {section}{\numberline {B.6}Scope and Honest Limits}{76}{section.B.6}%
+\contentsline {section}{\numberline {B.7}What This Commits Us To}{77}{section.B.7}%
+\contentsline {section}{Sources for this Appendix}{77}{section.B.7}%
