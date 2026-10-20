@@ -1,0 +1,264 @@
+KishLattice Pipeline Run Log
+============================================================
+run_timestamp:   20260930_043545
+vol_root:        C:\Users\timot\Downloads\Science\src\Unification\vol14
+engine_version:  044161a55b39c521e87f4c2bf4d7558fc78cb29cd07bf67abd2b4a5260366c03d5d1612f9caf57d6b0c21459cc7e1a58f103a7c433fe81b168f54dbcdeff6e490eb924e9f91b6c93d0d0e98a9eca38c8a92cc589c9086ed0690d6ef27a7e1b39
+stages:          scalarize, unify, chaos, pinch, figures
+started_utc:     2026-09-30 04:35:55 UTC
+============================================================
+
+
+============================================================
+[2026-09-30 04:35:55 UTC] STAGE: SCALARIZE
+Transform promoted lakes into scalar space
+============================================================
+[scalarize.json] Loaded config for 74 domains.
+
+============================================================
+  [MONITORING TIP] Open a new terminal and run:
+  python engine/sidecar.py
+  to view the live byte-streaming progress dashboard.
+============================================================
+
+Scalarizing L_emission_nist: L_emission_nist_promoted.jsonl -> L_emission_nist_scalarized.jsonl (mode=geometry)
+Scalarizing L_igrf: L_igrf_promoted.jsonl -> L_igrf_scalarized.jsonl (mode=geometry)
+Scalarizing L_beta_decay: L_beta_decay_promoted.jsonl -> L_beta_decay_scalarized.jsonl (mode=geometry)
+Scalarizing q4_nuclear: q4_nuclear_promoted.jsonl -> q4_nuclear_scalarized.jsonl (mode=geometry)
+Scalarizing q5_decay: q5_decay_promoted.jsonl -> q5_decay_scalarized.jsonl (mode=geometry)
+Scalarizing q8_ionisation: q8_ionisation_promoted.jsonl -> q8_ionisation_scalarized.jsonl (mode=geometry)
+Scalarizing b1_chirality: b1_chirality_promoted.jsonl -> b1_chirality_scalarized.jsonl (mode=geometry)
+Scalarizing t2b_atlantic: t2b_atlantic_promoted.jsonl -> t2b_atlantic_scalarized.jsonl (mode=geometry)
+Scalarizing t2c_gulf: t2c_gulf_promoted.jsonl -> t2c_gulf_scalarized.jsonl (mode=geometry)
+Scalarizing t2d_pacific: t2d_pacific_promoted.jsonl -> t2d_pacific_scalarized.jsonl (mode=geometry)
+Scalarizing t2g_indian: t2g_indian_promoted.jsonl -> t2g_indian_scalarized.jsonl (mode=geometry)
+Scalarizing u1_usgs_san_andreas: u1_usgs_san_andreas_promoted.jsonl -> u1_usgs_san_andreas_scalarized.jsonl (mode=geometry)
+Scalarizing u2_usgs_cascadia: u2_usgs_cascadia_promoted.jsonl -> u2_usgs_cascadia_scalarized.jsonl (mode=geometry)
+Scalarizing u4_usgs_anatolian: u4_usgs_anatolian_promoted.jsonl -> u4_usgs_anatolian_scalarized.jsonl (mode=geometry)
+Scalarizing u3_usgs_japan_trench: u3_usgs_japan_trench_promoted.jsonl -> u3_usgs_japan_trench_scalarized.jsonl (mode=geometry)
+Scalarizing k3_solar_cycle: k3_solar_cycle_promoted.jsonl -> k3_solar_cycle_scalarized.jsonl (mode=geometry)
+Scalarizing k2a_spindown: k2a_spindown_promoted.jsonl -> k2a_spindown_scalarized.jsonl (mode=geometry)
+Scalarizing k2b_dm: k2b_dm_promoted.jsonl -> k2b_dm_scalarized.jsonl (mode=geometry)
+Scalarizing k2c_age: k2c_age_promoted.jsonl -> k2c_age_scalarized.jsonl (mode=geometry)
+Scalarizing k2d_bfield: k2d_bfield_promoted.jsonl -> k2d_bfield_scalarized.jsonl (mode=geometry)
+Scalarizing h1_cern_lhc: h1_cern_lhc_promoted.jsonl -> h1_cern_lhc_scalarized.jsonl (mode=geometry)
+Scalarizing h1b_pt_lead: h1b_pt_lead_promoted.jsonl -> h1b_pt_lead_scalarized.jsonl (mode=geometry)
+Scalarizing h1c_pt_sublead: h1c_pt_sublead_promoted.jsonl -> h1c_pt_sublead_scalarized.jsonl (mode=geometry)
+Scalarizing h1d_eta: h1d_eta_promoted.jsonl -> h1d_eta_scalarized.jsonl (mode=geometry)
+Scalarizing g1b_sersic: g1b_sersic_promoted.jsonl -> g1b_sersic_scalarized.jsonl (mode=geometry)
+Scalarizing g1c_mass: g1c_mass_promoted.jsonl -> g1c_mass_scalarized.jsonl (mode=geometry)
+Scalarizing g2_wmap: g2_wmap_promoted.jsonl -> g2_wmap_scalarized.jsonl (mode=geometry)
+Scalarizing l1_gwtc: l1_gwtc_promoted.jsonl -> l1_gwtc_scalarized.jsonl (mode=geometry)
+Scalarizing p4_ttv: p4_ttv_promoted.jsonl -> p4_ttv_scalarized.jsonl (mode=geometry)
+Scalarizing p_eccentricity: p_ecc_promoted.jsonl -> p_eccentricity_scalarized.jsonl (mode=geometry)
+Scalarizing p_inclination: p_incl_promoted.jsonl -> p_inclination_scalarized.jsonl (mode=geometry)
+Scalarizing p_transit: p_transit_promoted.jsonl -> p_transit_scalarized.jsonl (mode=geometry)
+Scalarizing n1_mechanical: n1_mechanical_promoted.jsonl -> n1_mechanical_scalarized.jsonl (mode=geometry)
+Scalarizing n2_behavioral: n2_behavioral_promoted.jsonl -> n2_behavioral_scalarized.jsonl (mode=geometry)
+Scalarizing n3_mathematical: n3_mathematical_promoted.jsonl -> n3_mathematical_scalarized.jsonl (mode=geometry)
+Scalarizing n4_cosmological: n4_cosmological_promoted.jsonl -> n4_cosmological_scalarized.jsonl (mode=geometry)
+Scalarizing frb_chime: frb_chime_promoted.jsonl -> frb_chime_scalarized.jsonl (mode=geometry)
+Scalarizing g1_galaxy_kinematics: g1_galaxy_kinematics_promoted.jsonl -> g1_galaxy_kinematics_scalarized.jsonl (mode=geometry)
+Scalarizing k2_pulsar_periods: k2_pulsar_periods_promoted.jsonl -> k2_pulsar_periods_scalarized.jsonl (mode=geometry)
+Scalarizing k1_kepler_rotation: k1_kepler_rotation_promoted.jsonl -> k1_kepler_rotation_scalarized.jsonl (mode=geometry)
+Scalarizing p1_orbital_periods: p1_orbital_periods_promoted.jsonl -> p1_orbital_periods_scalarized.jsonl (mode=geometry)
+Scalarizing p2_orbital_radius: p2_orbital_radius_promoted.jsonl -> p2_orbital_radius_scalarized.jsonl (mode=geometry)
+Scalarizing p3_planet_mass: p3_planet_mass_promoted.jsonl -> p3_planet_mass_scalarized.jsonl (mode=geometry)
+Scalarizing q3_molecular_vibration: q3_molecular_vibration_promoted.jsonl -> q3_molecular_vibration_scalarized.jsonl (mode=geometry)
+Scalarizing q9_c60: q9_c60_promoted.jsonl -> q9_c60_scalarized.jsonl (mode=geometry)
+Scalarizing s1_gaia_parallax: s1_gaia_parallax_promoted.jsonl -> s1_gaia_parallax_scalarized.jsonl (mode=geometry)
+Scalarizing s2_stellar_kinematics: s2_stellar_kinematics_promoted.jsonl -> s2_stellar_kinematics_scalarized.jsonl (mode=geometry)
+Scalarizing s4_gaia_colour: s4_gaia_colour_promoted.jsonl -> s4_gaia_colour_scalarized.jsonl (mode=geometry)
+Scalarizing t2_planetary: t2_planetary_promoted.jsonl -> t2_planetary_scalarized.jsonl (mode=geometry)
+Scalarizing t4_cosmological: t4_cosmological_promoted.jsonl -> t4_cosmological_scalarized.jsonl (mode=geometry)
+Scalarizing p1_wrongbox: p1_wrong_promoted.jsonl -> p1_wrongbox_scalarized.jsonl (mode=geometry)
+Scalarizing k2_wrongbox: k2_wrongbox_promoted.jsonl -> k2_wrongbox_scalarized.jsonl (mode=geometry)
+Scalarizing mat_wrongbox: mat_wrongbox_promoted.jsonl -> mat_wrongbox_scalarized.jsonl (mode=geometry)
+
+==============================================================================
+SCALAR DISPATCH ATTRIBUTION
+==============================================================================
+  domain                          route                      records
+  astrophysics                    NAMED_HANDLER                4,636
+  atomic_ionisation               NAMED_HANDLER                  305
+  behavior                        CONFIG_DISPATCH              2,515
+  biology_chirality               CONFIG_DISPATCH                 78
+  cmb_anisotropy                  NAMED_HANDLER                   83
+  cosmology                       CONFIG_BY_LAKE_ID_AFTER_NAMED       5,000
+  cosmology                       CONFIG_AFTER_NAMED           5,000
+  electron_beta                   CONFIG_DISPATCH             40,210
+  galactic                        CONFIG_DISPATCH          1,843,110
+  galactic_mass                   CONFIG_DISPATCH          1,843,110
+  galactic_sersic                 CONFIG_DISPATCH            100,000
+  geomagnetic                     CONFIG_DISPATCH                195
+  gravitational_wave              ZERO                            21
+  materials_wrongbox              CONFIG_DISPATCH             33,973
+  mathematics                     CONFIG_DISPATCH              1,000
+  mechanics                       CONFIG_DISPATCH              2,484
+  molecular_c60                   NAMED_HANDLER                   46
+  nuclear_binding                 NAMED_HANDLER                   43
+  nuclear_decay                   NAMED_HANDLER                3,173
+  nuclear_decay                   CONFIG_AFTER_NAMED              32
+  orbital                         CONFIG_DISPATCH             13,521
+  orbital                         CONFIG_DISPATCH_BY_LAKE_ID      11,970
+  orbital_eccentricity            CONFIG_DISPATCH              5,241
+  orbital_inclination             CONFIG_DISPATCH              4,779
+  orbital_transit                 CONFIG_DISPATCH              4,603
+  orbital_ttv                     NAMED_HANDLER              290,458
+  orbital_wrongbox                CONFIG_DISPATCH             13,521
+  planetary                       CONFIG_AFTER_NAMED          14,116
+  planetary_atlantic              NAMED_HANDLER                6,973
+  planetary_gulf                  NAMED_HANDLER                6,927
+  planetary_indian                NAMED_HANDLER                4,929
+  planetary_pacific               NAMED_HANDLER                6,838
+  quantum_molecular_vibration     CONFIG_DISPATCH                 77
+  quantum_transitional            CONFIG_DISPATCH            189,330
+  seismic_temporal                NAMED_HANDLER                4,983
+  stellar                         CONFIG_AFTER_NAMED       2,000,000
+  stellar                         CONFIG_BY_LAKE_ID_AFTER_NAMED   1,979,697
+  stellar_age                     CONFIG_DISPATCH              2,052
+  stellar_bfield                  CONFIG_DISPATCH              2,052
+  stellar_cycle                   NAMED_HANDLER                   29
+  stellar_dm                      CONFIG_DISPATCH              2,457
+  stellar_kinematic               ZERO                        69,078
+  stellar_rotation                CONFIG_DISPATCH_BY_LAKE_ID      67,311
+  stellar_spindown                CONFIG_DISPATCH              2,052
+  stellar_wrongbox                CONFIG_DISPATCH              2,527
+  subnuclear_eta                  CONFIG_DISPATCH            100,000
+  subnuclear_mass                 NAMED_HANDLER              100,000
+  subnuclear_pt_lead              CONFIG_DISPATCH            100,000
+  subnuclear_pt_sublead           CONFIG_DISPATCH            100,000
+
+  Resolved field paths:
+    behavior                         -> scalar_klc
+    biology_chirality                -> specific_rotation_deg
+    cosmology                        -> meta.source_row.meta.source_row.raw_payload.d_proxy
+    electron_beta                    -> beta_endpoint_kev
+    galactic                         -> _raw_payload.vdisp
+    galactic_mass                    -> stellar_mass_solar
+    galactic_sersic                  -> sersic_index
+    geomagnetic                      -> amplitude_nT
+    k1_kepler_rotation               -> meta.prot_days
+    k2_pulsar_periods                -> _raw_payload.p0_ms
+    materials_wrongbox               -> volume
+    mathematics                      -> scalar_klc
+    mechanics                        -> scalar_klc
+    n4_cosmological                  -> scalar_klc
+    nuclear_decay                    -> half_life_seconds
+    orbital                          -> _raw_payload.period_days
+    orbital_eccentricity             -> eccentricity
+    orbital_inclination              -> inclination_deg
+    orbital_transit                  -> transit_duration_hr
+    orbital_wrongbox                 -> period_days
+    p2_orbital_radius                -> meta.source_row._raw_payload.pl_orbsmax   (config asked 'pl_orbsmax')
+    p3_planet_mass                   -> meta.source_row._raw_payload.pl_bmassj   (config asked 'pl_bmassj')
+    planetary                        -> meta.source_row.meta.source_row.raw_payload.interval_hours
+    quantum_molecular_vibration      -> _raw_payload.frequency_cm1
+    quantum_transitional             -> klghs_transition_freq_Hz
+    s4_gaia_colour                   -> meta.source_row._raw_payload.bp_rp
+    stellar                          -> _raw_payload.dist_pc
+    stellar_age                      -> characteristic_age_yr
+    stellar_bfield                   -> surface_b_field_gauss
+    stellar_dm                       -> dispersion_measure
+    stellar_spindown                 -> spin_down_rate
+    stellar_wrongbox                 -> P0_ms
+    subnuclear_eta                   -> muon1_eta_abs
+    subnuclear_pt_lead               -> muon1_pt_gev
+    subnuclear_pt_sublead            -> muon2_pt_gev
+
+  No legacy fallback. Every domain computed from its configured field.
+==============================================================================
+
+
+[2026-09-30 04:38:04 UTC] STAGE COMPLETE: scalarize in 2m 8s
+
+============================================================
+[2026-09-30 04:38:04 UTC] STAGE: UNIFY
+Stream all scalarized lakes into unified master
+============================================================
+C:\Users\timot\Downloads\Science\src\Unification\vol14\engine\unify.py:94: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  start_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
+C:\Users\timot\Downloads\Science\src\Unification\vol14\engine\unify.py:168: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
+
+============================================================
+  [MONITORING TIP] Open a new terminal and run:
+  python engine/sidecar.py
+  to view the live unified streaming dashboard.
+============================================================
+
+Volumes: 82 total, 53 enabled, 29 disabled
+
+[2026-09-30 04:38:04 UTC] Pipeline run started.
+
+  [L_emission_nist] domain=quantum_transitional  n=189,330  nonzero=189,330
+  [L_igrf] domain=geomagnetic  n=195  nonzero=191
+  [L_beta_decay] domain=electron_beta  n=40,210  nonzero=40,210
+  [q4_nuclear] domain=nuclear_binding  n=43  nonzero=43
+  [q5_decay] domain=nuclear_decay  n=3,205  nonzero=3,205
+  [q8_ionisation] domain=atomic_ionisation  n=305  nonzero=305
+  [b1_chirality] domain=biology_chirality  n=78  nonzero=78
+  [t2b_atlantic] domain=planetary_atlantic  n=6,973  nonzero=6,973
+  [t2c_gulf] domain=planetary_gulf  n=6,927  nonzero=6,927
+  [t2d_pacific] domain=planetary_pacific  n=6,838  nonzero=6,838
+  [t2g_indian] domain=planetary_indian  n=4,929  nonzero=4,929
+  [u1_usgs_san_andreas] domain=seismic_reference  n=281  nonzero=281
+  [u2_usgs_cascadia] domain=seismic_reference  n=462  nonzero=743
+  [u4_usgs_anatolian] domain=seismic_reference  n=234  nonzero=977
+  [u3_usgs_japan_trench] domain=seismic_japan  n=4,006  nonzero=4,006
+  [k3_solar_cycle] domain=stellar_cycle  n=29  nonzero=29
+  [k2a_spindown] domain=stellar_spindown  n=2,052  nonzero=2,052
+  [k2b_dm] domain=stellar_dm  n=2,457  nonzero=2,457
+  [k2c_age] domain=stellar_age  n=2,052  nonzero=2,052
+  [k2d_bfield] domain=stellar_bfield  n=2,052  nonzero=2,052
+  [h1_cern_lhc] domain=subnuclear_mass  n=100,000  nonzero=100,000
+  [h1b_pt_lead] domain=subnuclear_pt_lead  n=100,000  nonzero=100,000
+  [h1c_pt_sublead] domain=subnuclear_pt_sublead  n=100,000  nonzero=100,000
+  [h1d_eta] domain=subnuclear_eta  n=100,000  nonzero=100,000
+  [g1b_sersic] domain=galactic_sersic  n=100,000  nonzero=59,563
+    [2026-09-30 04:38:13 UTC] 250,000 records streamed from g1c_mass...
+    [2026-09-30 04:38:16 UTC] 500,000 records streamed from g1c_mass...
+    [2026-09-30 04:38:18 UTC] 750,000 records streamed from g1c_mass...
+    [2026-09-30 04:38:21 UTC] 1,000,000 records streamed from g1c_mass...
+    [2026-09-30 04:38:23 UTC] 1,250,000 records streamed from g1c_mass...
+    [2026-09-30 04:38:26 UTC] 1,500,000 records streamed from g1c_mass...
+    [2026-09-30 04:38:29 UTC] 1,750,000 records streamed from g1c_mass...
+  [g1c_mass] domain=galactic_mass  n=1,843,110  nonzero=1,843,110
+  [g2_wmap] domain=cmb_anisotropy  n=83  nonzero=83
+  [l1_gwtc] domain=gravitational_wave  n=21  nonzero=0
+    [2026-09-30 04:38:32 UTC] 250,000 records streamed from p4_ttv...
+  [p4_ttv] domain=orbital_ttv  n=290,458  nonzero=290,458
+  [p_eccentricity] domain=orbital_eccentricity  n=5,241  nonzero=2,159
+  [p_inclination] domain=orbital_inclination  n=4,779  nonzero=4,779
+  [p_transit] domain=orbital_transit  n=4,603  nonzero=4,603
+  [n1_mechanical] domain=mechanics  n=2,484  nonzero=0
+  [n2_behavioral] domain=behavior  n=2,515  nonzero=0
+  [n3_mathematical] domain=mathematics  n=1,000  nonzero=0
+  [n4_cosmological] domain=cosmology_null  n=5,000  nonzero=5,000
+  [frb_chime] domain=astrophysics  n=4,636  nonzero=4,636
+    [2026-09-30 04:38:36 UTC] 250,000 records streamed from g1_galaxy_kinematics...
+    [2026-09-30 04:38:39 UTC] 500,000 records streamed from g1_galaxy_kinematics...
+    [2026-09-30 04:38:43 UTC] 750,000 records streamed from g1_galaxy_kinematics...
+    [2026-09-30 04:38:46 UTC] 1,000,000 records streamed from g1_galaxy_kinematics...
+    [2026-09-30 04:38:50 UTC] 1,250,000 records streamed from g1_galaxy_kinematics...
+    [2026-09-30 04:38:53 UTC] 1,500,000 records streamed from g1_galaxy_kinematics...
+    [2026-09-30 04:38:57 UTC] 1,750,000 records streamed from g1_galaxy_kinematics...
+  [g1_galaxy_kinematics] domain=galactic  n=1,843,110  nonzero=1,843,110
+  [k2_pulsar_periods] domain=stellar_rotation_pulsar  n=2,527  nonzero=2,527
+  [k1_kepler_rotation] domain=stellar_rotation_kepler  n=64,784  nonzero=64,784
+  [p1_orbital_periods] domain=orbital  n=13,521  nonzero=13,521
+  [p2_orbital_radius] domain=orbital_radius  n=5,843  nonzero=5,843
+  [p3_planet_mass] domain=orbital_mass  n=6,127  nonzero=6,127
+  [q3_molecular_vibration] domain=quantum_molecular_vibration  n=77  nonzero=77
+  [q9_c60] domain=molecular_c60  n=46  nonzero=46
+    [2026-09-30 04:39:02 UTC] 250,000 records streamed from s1_gaia_parallax...
+    [2026-09-30 04:39:05 UTC] 500,000 records streamed from s1_gaia_parallax...
+    [2026-09-30 04:39:08 UTC] 750,000 records streamed from s1_gaia_parallax...
+    [2026-09-30 04:39:12 UTC] 1,000,000 records streamed from s1_gaia_parallax...
+    [2026-09-30 04:39:15 UTC] 1,250,000 records streamed from s1_gaia_parallax...
+    [2026-09-30 04:39:18 UTC] 1,500,000 records streamed from s1_gaia_parallax...
+    [2026-09-30 04:39:21 UTC] 1,750,000 records streamed from s1_gaia_parallax...
+    [2026-09-30 04:39:24 UTC] 2,000,000 records streamed from s1_gaia_parallax...
+  [s1_gaia_parallax] domain=stellar  n=2,000,000  nonzero=2,000,000
+  [s2_stellar_kinematics] domain=stellar_kinematic  n=69,078  nonzero=0
+    [2026-09-30 04:39:31 UTC] 250,000 records streamed from s4_gaia_colour...
+    [2026-09-30 04:39:36 UTC] 500,000 records streamed from s4_gaia_colour...

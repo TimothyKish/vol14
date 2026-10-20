@@ -1,0 +1,518 @@
+{
+  "b1_chirality": {
+    "n": 78,
+    "raw_span": 1.5555965146879231,
+    "eff_span": 1.5526482908184949,
+    "inflation": 1.001898835613231,
+    "shape": "CLUMPED",
+    "densest_frac": 0.16666666666666666
+  },
+  "b3_amino": {
+    "n": 157,
+    "raw_span": 0.05823537484435126,
+    "eff_span": 0.05820431839894458,
+    "inflation": 1.0005335763094727,
+    "shape": "SPIKED",
+    "densest_frac": 0.36942675159235666
+  },
+  "b4_pdb_protein": {
+    "n": 3373828,
+    "raw_span": 3.998988206873867,
+    "eff_span": 1.6900060308336136,
+    "inflation": 2.366256767084626,
+    "shape": "SPIKED",
+    "densest_frac": 0.428505
+  },
+  "b5_pdb_full_protein": {
+    "n": 6834866,
+    "raw_span": 3.998988206873867,
+    "eff_span": 1.6904408679423604,
+    "inflation": 2.3656480878514956,
+    "shape": "SPIKED",
+    "densest_frac": 0.434692
+  },
+  "b5_pdb_protein": {
+    "n": 1259889,
+    "raw_span": 3.998988206873867,
+    "eff_span": 1.7325708835276354,
+    "inflation": 2.3081238666158623,
+    "shape": "SPIKED",
+    "densest_frac": 0.4287314199901737
+  },
+  "chemistry": {
+    "n": 67174,
+    "raw_span": 2.3025850929940455,
+    "eff_span": 1.0986122886681093,
+    "inflation": 2.0959032742893853,
+    "shape": "CLUMPED",
+    "densest_frac": 0.19707029505463422
+  },
+  "frb_chime": {
+    "n": 4636,
+    "raw_span": 1.2039606064803614,
+    "eff_span": 0.6298580519856973,
+    "inflation": 1.9114792653435835,
+    "shape": "CLUMPED",
+    "densest_frac": 0.1499137187230371
+  },
+  "g1_galaxy_kinematics": {
+    "n": 1843110,
+    "raw_span": 0.4569169813345557,
+    "eff_span": 0.43462069741136866,
+    "inflation": 1.0513005571432408,
+    "shape": "FILLED",
+    "densest_frac": 0.1230702454004373
+  },
+  "g1a_radius": {
+    "n": 100000,
+    "raw_span": 6.145210683189262,
+    "eff_span": 4.49664985045098,
+    "inflation": 1.3666197919708922,
+    "shape": "SPIKED",
+    "densest_frac": 0.2673
+  },
+  "g1b_sersic": {
+    "n": 59563,
+    "raw_span": 10.365841115264363,
+    "eff_span": 4.097311313927685,
+    "inflation": 2.529912989532558,
+    "shape": "SPIKED",
+    "densest_frac": 0.733979148128872
+  },
+  "g1c_mass": {
+    "n": 1843110,
+    "raw_span": 0.4600728746024365,
+    "eff_span": 0.43763127941359947,
+    "inflation": 1.0512796873635437,
+    "shape": "FILLED",
+    "densest_frac": 0.12362148759433783
+  },
+  "g2_wmap": {
+    "n": 83,
+    "raw_span": 0.5768041312209393,
+    "eff_span": 0.523111904891162,
+    "inflation": 1.1026400390198507,
+    "shape": "SPIKED",
+    "densest_frac": 0.27710843373493976
+  },
+  "h1_cern_lhc": {
+    "n": 100000,
+    "raw_span": 3.0786828019974046,
+    "eff_span": 2.6923186892055213,
+    "inflation": 1.1435060843060507,
+    "shape": "FILLED",
+    "densest_frac": 0.20561
+  },
+  "h1b_pt_lead": {
+    "n": 100000,
+    "raw_span": 3.219593745659962,
+    "eff_span": 1.4384387446126596,
+    "inflation": 2.238255718373971,
+    "shape": "CLUMPED",
+    "densest_frac": 0.23051
+  },
+  "h1c_pt_sublead": {
+    "n": 100000,
+    "raw_span": 2.489108776563543,
+    "eff_span": 1.7692091261469531,
+    "inflation": 1.4069047800948287,
+    "shape": "FILLED",
+    "densest_frac": 0.18082
+  },
+  "h1d_eta": {
+    "n": 100000,
+    "raw_span": 9.41228299642616,
+    "eff_span": 4.312533043313353,
+    "inflation": 2.182541652873836,
+    "shape": "SPIKED",
+    "densest_frac": 0.42797
+  },
+  "k1_kepler_rotation": {
+    "n": 64784,
+    "raw_span": 3.1473065049006155,
+    "eff_span": 2.735240775361737,
+    "inflation": 1.1506506239782062,
+    "shape": "FILLED",
+    "densest_frac": 0.2230489009632008
+  },
+  "k2_pulsar_periods": {
+    "n": 2527,
+    "raw_span": 2.372971686595579,
+    "eff_span": 2.1436073143826992,
+    "inflation": 1.1069992487308389,
+    "shape": "FILLED",
+    "densest_frac": 0.22358527898694103
+  },
+  "k2_wrongbox": {
+    "n": 2527,
+    "raw_span": 8.75915280704068,
+    "eff_span": 8.14360934813787,
+    "inflation": 1.0755860740107286,
+    "shape": "FILLED",
+    "densest_frac": 0.13929560743965175
+  },
+  "k2a_spindown": {
+    "n": 2052,
+    "raw_span": 26.874360529371774,
+    "eff_span": 22.285746499373058,
+    "inflation": 1.2058990498760185,
+    "shape": "FILLED",
+    "densest_frac": 0.17982456140350878
+  },
+  "k2b_dm": {
+    "n": 2457,
+    "raw_span": 1.8156334586650407,
+    "eff_span": 1.3756575581156136,
+    "inflation": 1.3198295229461825,
+    "shape": "FILLED",
+    "densest_frac": 0.1505901505901506
+  },
+  "k2c_age": {
+    "n": 2052,
+    "raw_span": 1.5319150680151483,
+    "eff_span": 1.0946139987655092,
+    "inflation": 1.39950253673242,
+    "shape": "FILLED",
+    "densest_frac": 0.14961013645224172
+  },
+  "k2d_bfield": {
+    "n": 2052,
+    "raw_span": 0.6715467556774457,
+    "eff_span": 0.5846638178615495,
+    "inflation": 1.1486032402923048,
+    "shape": "FILLED",
+    "densest_frac": 0.23440545808966862
+  },
+  "k3_solar_cycle": {
+    "n": 29,
+    "raw_span": 0.05311275697569262,
+    "eff_span": 0.05189262118634552,
+    "inflation": 1.023512702990385,
+    "shape": "SPIKED",
+    "densest_frac": 0.3103448275862069
+  },
+  "l1_gwtc": {
+    "n": 21,
+    "raw_span": 0.4344127901259007,
+    "eff_span": 0.42334139152450234,
+    "inflation": 1.0261524122683325,
+    "shape": "CLUMPED",
+    "densest_frac": 0.14285714285714285
+  },
+  "L_beta_decay": {
+    "n": 40210,
+    "raw_span": 6.017409074513723,
+    "eff_span": 1.2790638917844408,
+    "inflation": 4.704541433124773,
+    "shape": "SPIKED",
+    "densest_frac": 0.49291221089281273
+  },
+  "L_emission_nist": {
+    "n": 189330,
+    "raw_span": 0.9154195628098702,
+    "eff_span": 0.20057209047263225,
+    "inflation": 4.564042587643956,
+    "shape": "SPIKED",
+    "densest_frac": 0.3655891829081498
+  },
+  "L_igrf": {
+    "n": 191,
+    "raw_span": 4.681688888442006,
+    "eff_span": 4.494110162853712,
+    "inflation": 1.0417387911713278,
+    "shape": "CLUMPED",
+    "densest_frac": 0.07329842931937172
+  },
+  "mat_wrongbox": {
+    "n": 33973,
+    "raw_span": 1.2902769284641742,
+    "eff_span": 0.8331968145298512,
+    "inflation": 1.5485860074876068,
+    "shape": "TAIL-INFLATED",
+    "densest_frac": 0.11088217113590204
+  },
+  "materials": {
+    "n": 33973,
+    "raw_span": 0.6223382474082513,
+    "eff_span": 0.30591630080444,
+    "inflation": 2.0343415691538684,
+    "shape": "CLUMPED",
+    "densest_frac": 0.15432843728843493
+  },
+  "n1_mechanical": {
+    "skipped": true,
+    "n_usable": 0
+  },
+  "n2_behavioral": {
+    "skipped": true,
+    "n_usable": 0
+  },
+  "n3_mathematical": {
+    "skipped": true,
+    "n_usable": 0
+  },
+  "n4_cosmological": {
+    "n": 5000,
+    "raw_span": 0.11458658664004207,
+    "eff_span": 0.11341925330894953,
+    "inflation": 1.010292197286053,
+    "shape": "FILLED",
+    "densest_frac": 0.0538
+  },
+  "np1_orbital_periods": {
+    "n": 13514,
+    "raw_span": 4.864494924012597,
+    "eff_span": 2.5604679771365837,
+    "inflation": 1.8998460310574345,
+    "shape": "SPIKED",
+    "densest_frac": 0.6721178037590647
+  },
+  "p1_orbital_periods": {
+    "n": 13521,
+    "raw_span": 5.210170684523628,
+    "eff_span": 2.569018137653843,
+    "inflation": 2.0280785908665555,
+    "shape": "SPIKED",
+    "densest_frac": 0.7399600621255824
+  },
+  "p1_wrongbox": {
+    "n": 13521,
+    "raw_span": 11.065686259796545,
+    "eff_span": 3.625579194618502,
+    "inflation": 3.052115445780773,
+    "shape": "SPIKED",
+    "densest_frac": 0.7657717624436062
+  },
+  "p2_orbital_radius": {
+    "n": 5843,
+    "raw_span": 7.716046255002413,
+    "eff_span": 6.255020062007981,
+    "inflation": 1.2335765798527936,
+    "shape": "FILLED",
+    "densest_frac": 0.12442238576073934
+  },
+  "p3_planet_mass": {
+    "n": 6127,
+    "raw_span": 10.9072410609433,
+    "eff_span": 8.266359589679313,
+    "inflation": 1.3194733355854942,
+    "shape": "FILLED",
+    "densest_frac": 0.14917577933735923
+  },
+  "p4_ttv": {
+    "n": 290458,
+    "raw_span": 8.89243666333769,
+    "eff_span": 4.614960208113111,
+    "inflation": 1.926871795710127,
+    "shape": "SPIKED",
+    "densest_frac": 0.2682281087110701
+  },
+  "p_eccentricity": {
+    "n": 2159,
+    "raw_span": 8.806667801543648,
+    "eff_span": 6.448236269753408,
+    "inflation": 1.365748312116428,
+    "shape": "FILLED",
+    "densest_frac": 0.14358499305233904
+  },
+  "p_inclination": {
+    "n": 4779,
+    "raw_span": 3.4102079986561797,
+    "eff_span": 1.7304465238262206,
+    "inflation": 1.9707098437898036,
+    "shape": "SPIKED",
+    "densest_frac": 0.9556392550742834
+  },
+  "p_transit": {
+    "n": 4603,
+    "raw_span": 3.4646750992748854,
+    "eff_span": 1.7687545879087492,
+    "inflation": 1.9588218303203233,
+    "shape": "CLUMPED",
+    "densest_frac": 0.1942211601129698
+  },
+  "q1_atomic_spectra": {
+    "n": 2975,
+    "raw_span": 2.0500793686551404,
+    "eff_span": 1.728450378639327,
+    "inflation": 1.1860793887927559,
+    "shape": "FILLED",
+    "densest_frac": 0.17243697478991596
+  },
+  "q2_molecular_geometry": {
+    "n": 34,
+    "raw_span": 1.9685927967134038,
+    "eff_span": 1.9620437693468307,
+    "inflation": 1.003337859974833,
+    "shape": "SPIKED",
+    "densest_frac": 0.29411764705882354
+  },
+  "q3_molecular_vibration": {
+    "n": 77,
+    "raw_span": 0.39257784933520745,
+    "eff_span": 0.3657016267039692,
+    "inflation": 1.0734922151522017,
+    "shape": "CLUMPED",
+    "densest_frac": 0.11688311688311688
+  },
+  "q4_nuclear": {
+    "n": 43,
+    "raw_span": 1.1156122934998467,
+    "eff_span": 1.0036482218277571,
+    "inflation": 1.1115570866734465,
+    "shape": "SPIKED",
+    "densest_frac": 0.627906976744186
+  },
+  "q5_decay": {
+    "n": 3205,
+    "raw_span": 52.27116267563306,
+    "eff_span": 49.33633919428994,
+    "inflation": 1.059486040700863,
+    "shape": "SPIKED",
+    "densest_frac": 0.6717628705148206
+  },
+  "q8_ionisation": {
+    "n": 305,
+    "raw_span": 1.5340014695286714,
+    "eff_span": 1.5004136008911677,
+    "inflation": 1.0223857399170164,
+    "shape": "FILLED",
+    "densest_frac": 0.07540983606557378
+  },
+  "q9_c60": {
+    "n": 46,
+    "raw_span": 0.2713111210513959,
+    "eff_span": 0.26157981085983883,
+    "inflation": 1.0372020690724153,
+    "shape": "CLUMPED",
+    "densest_frac": 0.10869565217391304
+  },
+  "s1_gaia_parallax": {
+    "n": 2000000,
+    "raw_span": 1.7652043631599008,
+    "eff_span": 0.6094322594798509,
+    "inflation": 2.8964734565684114,
+    "shape": "SPIKED",
+    "densest_frac": 0.2510955
+  },
+  "s2_stellar_kinematics": {
+    "n": 69078,
+    "raw_span": 3.0819054187023887,
+    "eff_span": 1.4496548774002094,
+    "inflation": 2.125958024043236,
+    "shape": "TAIL-INFLATED",
+    "densest_frac": 0.2330264338863314
+  },
+  "s2_wrongbox": {
+    "n": 1995317,
+    "raw_span": 40.3340953358084,
+    "eff_span": 33.28084248418753,
+    "inflation": 1.2119313191957815,
+    "shape": "SPIKED",
+    "densest_frac": 0.31863057348782176
+  },
+  "s3_gaia_luminosity": {
+    "n": 2000000,
+    "raw_span": 14.24113711263735,
+    "eff_span": 5.069299896126589,
+    "inflation": 2.809290711626449,
+    "shape": "SPIKED",
+    "densest_frac": 0.3561385
+  },
+  "s4_gaia_colour": {
+    "n": 1979697,
+    "raw_span": 9.248221638513165,
+    "eff_span": 1.1100652757190264,
+    "inflation": 8.331241270944885,
+    "shape": "SPIKED",
+    "densest_frac": 0.5241332385713572
+  },
+  "t1_biological": {
+    "n": 39,
+    "raw_span": 0.16830263466967954,
+    "eff_span": 0.16830263466967954,
+    "inflation": 1.0,
+    "shape": "SPIKED",
+    "densest_frac": 0.6153846153846154
+  },
+  "t2_planetary": {
+    "n": 14116,
+    "raw_span": 0.5122046249639558,
+    "eff_span": 0.3192075321937748,
+    "inflation": 1.6046132164983569,
+    "shape": "TAIL-INFLATED",
+    "densest_frac": 0.1635732502125248
+  },
+  "t2b_atlantic": {
+    "n": 6973,
+    "raw_span": 0.5269303057065324,
+    "eff_span": 0.2758981669059601,
+    "inflation": 1.9098724417626765,
+    "shape": "SPIKED",
+    "densest_frac": 0.5040871934604905
+  },
+  "t2c_gulf": {
+    "n": 6927,
+    "raw_span": 0.5483801873349018,
+    "eff_span": 0.5154133302311805,
+    "inflation": 1.0639619799684545,
+    "shape": "CLUMPED",
+    "densest_frac": 0.14595062797747943
+  },
+  "t2d_pacific": {
+    "n": 6838,
+    "raw_span": 0.5379042894463945,
+    "eff_span": 0.5154133302311805,
+    "inflation": 1.0436367433592102,
+    "shape": "CLUMPED",
+    "densest_frac": 0.15881836794384324
+  },
+  "t2g_indian": {
+    "n": 4929,
+    "raw_span": 0.3395186149894891,
+    "eff_span": 0.31806536208031255,
+    "inflation": 1.0674491958786745,
+    "shape": "CLUMPED",
+    "densest_frac": 0.17731791438425645
+  },
+  "t4_cosmological": {
+    "n": 5000,
+    "raw_span": 0.11460882154067265,
+    "eff_span": 0.11344719114661783,
+    "inflation": 1.0102393931688758,
+    "shape": "FILLED",
+    "densest_frac": 0.082
+  },
+  "u1_usgs_san_andreas": {
+    "n": 281,
+    "raw_span": 12.280096800119514,
+    "eff_span": 10.271833351906476,
+    "inflation": 1.1955116851501781,
+    "shape": "SPIKED",
+    "densest_frac": 0.33451957295373663
+  },
+  "u2_usgs_cascadia": {
+    "n": 462,
+    "raw_span": 10.704469655618379,
+    "eff_span": 10.203764218688121,
+    "inflation": 1.0490706592389913,
+    "shape": "SPIKED",
+    "densest_frac": 0.3593073593073593
+  },
+  "u3_usgs_japan_trench": {
+    "n": 4006,
+    "raw_span": 11.799145643132912,
+    "eff_span": 9.409886298577108,
+    "inflation": 1.2539094808103142,
+    "shape": "FILLED",
+    "densest_frac": 0.23040439340988517
+  },
+  "u4_usgs_anatolian": {
+    "n": 234,
+    "raw_span": 11.804235523842932,
+    "eff_span": 8.744723811578092,
+    "inflation": 1.3498694502179724,
+    "shape": "SPIKED",
+    "densest_frac": 0.3974358974358974
+  }
+}
